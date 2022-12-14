@@ -26,13 +26,17 @@ img{
     margin-left: auto;
     margin-right: auto;
     max-width: 480px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 31px;
+    padding-right: 31px;
 
    @include mq(tablet){
+        padding-left: 39px;
+        padding-right: 39px;
         max-width: 768px;
    }
    @include mq(desktop){
+        padding-left: 15px;
+        padding-right: 15px;
         max-width: 1200px;
    }
     
@@ -45,8 +49,8 @@ img{
     padding-bottom: 60px;
     
     @include mq(desktop) {
-        padding-top: 94px;
-        padding-bottom: 94px;
+        padding-top: 120px;
+        padding-bottom: 120px;
         }
     
 }
