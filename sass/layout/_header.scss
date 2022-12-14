@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 156px;
+
+}
+.site-nav__item:not(:last-child){margin-right: 16px;
+
+}
+
+
+.logo{
+    margin-left: 50px;
+    margin-top: 32px;
+    margin-right: 40px;
+}
+
+
+.header__nav{
+    display: flex;
+    align-items: center;
+}
+.site-nav{
+    display: flex;
+}
+.auth-nav{
+
+}
+.auth-nav__button{
+
+}

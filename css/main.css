@@ -2,7 +2,7 @@
 .page {
   background-color: var(--ptimary-bgc-color);
   color: var(--primary-text-color);
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: o;
 }
 
@@ -59,9 +59,27 @@ img {
 
 /* cstyles Студія */
 /* general */
-:root {
-  --primary-text-color: #757575;
-  --title-text-color: #212121;
-  --accent-color: #2196F3;
-  --ptimary-white-color: #fff;
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 156px;
+}
+
+.site-nav__item:not(:last-child) {
+  margin-right: 16px;
+}
+
+.logo {
+  margin-left: 50px;
+  margin-top: 32px;
+  margin-right: 40px;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav {
+  display: flex;
 }/*# sourceMappingURL=main.css.map */
