@@ -78,6 +78,21 @@ img {
 
 /* cstyles Студія */
 /* general */
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+}
+.header__logo {
+  fill: #FFFFFF;
+}
+.header__logo__button {
+  margin-left: 310px;
+  stroke: none;
+  background-color: none;
+}
+
 .about__pre-title {
   display: flex;
   align-items: center;

@@ -1,0 +1,15 @@
+.header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    &__logo{
+    fill: #FFFFFF;
+
+    &__button{
+        margin-left: 310px;
+        stroke: none;
+        background-color: none;
+    }
+}
+}
