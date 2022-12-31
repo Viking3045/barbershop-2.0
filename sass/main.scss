@@ -1,11 +1,11 @@
   @import "./utils/mixins";
   @import "./components/button";
   
-  @import "base/_base.scss";
-   @import "./base/_variables.scss";
+  @import "./base/base";
+   @import "./base/variables";
 
-   @import "./layout/_header.scss";
-   @import "./layout/_hero.scss";
+   @import "./layout/header";
+   @import "./layout/hero";
 
 
    @import "./layout/about";
