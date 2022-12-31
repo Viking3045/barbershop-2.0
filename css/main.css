@@ -125,7 +125,9 @@ img {
 
 .prices {
   background-color: #111319;
-  text-align: center;
+  background-image: url(/img/prices/mob_prices_1x-min.png);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .prices__pre-title {
@@ -200,6 +202,10 @@ img {
 .price__button {
   margin-top: 44px;
   color: #FFFFFF;
+}
+
+.school {
+  background-color: #ffffff;
 }
 
 .school__pre-title {
@@ -380,6 +386,9 @@ img {
   margin-right: 10px;
 }
 
+.work {
+  background-color: #ffffff;
+}
 .work__text {
   display: flex;
   align-items: center;
@@ -400,4 +409,174 @@ img {
 }
 .work__item:not(:last-child) {
   margin-bottom: 30px;
+}
+
+.footer {
+  background-color: #191C26;
+}
+
+.booking__heading {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+.booking__label {
+  margin-bottom: 44px;
+}
+.booking__label:focus {
+  color: #FFFFFF;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+}
+.booking__title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.4);
+}
+.booking__form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.booking__text {
+  min-width: 418px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+  color: rgba(157, 164, 189, 0.4);
+}
+.booking__text:focus {
+  color: #FFFFFF;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+}
+.booking__coment {
+  resize: none;
+  min-width: 418px;
+  height: 76px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+}
+.booking__coment:focus {
+  border-bottom: #FFFFFF;
+}
+.booking__button {
+  color: #FFFFFF;
+  padding-left: 38px;
+  padding-right: 38px;
+}
+
+.contacts {
+  padding-bottom: 84px;
+  padding-top: 84px;
+  background-image: url(/img/contacts/mob_contacts_1x-min.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contacts__title {
+  margin: 0;
+  margin-bottom: 40px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+.contacts__item {
+  display: flex;
+  align-items: center;
+}
+.contacts__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+.contacts__link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9DA4BD;
+  margin-left: 16px;
+}
+.contacts__address {
+  margin-bottom: 44px;
+}
+.contacts__pre-title {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 0;
+  color: #FFFFFF;
+}
+.contacts__pre-title::before {
+  content: " ";
+  width: 60px;
+  height: 1px;
+  margin-right: 20px;
+  background-color: rgba(157, 164, 189, 0.4);
+}
+.contacts__text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9DA4BD;
+}
+
+.socials {
+  background: #F7F7F7;
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+.socials__list {
+  display: flex;
+  margin-bottom: 20px;
+}
+.socials__item {
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: #303030;
+  display: flex;
+  align-items: center;
+}
+.socials__item:not(:last-child) {
+  margin-right: 40px;
+}
+.socials__item:not(:last-child)::before {
+  content: " ";
+  width: 60px;
+  height: 1px;
+  background-color: #303030;
+  margin-right: 40px;
+  margin-left: 148px;
+}
+.socials__texts {
+  display: flex;
+}
+.socials__text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: #9DA4BD;
+}
+.socials__text:not(:last-child) {
+  margin-right: 6px;
 }/*# sourceMappingURL=main.css.map */

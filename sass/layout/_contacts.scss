@@ -1,0 +1,71 @@
+
+.contacts{
+    padding-bottom: 84px;
+    padding-top: 84px;
+    background-image: url(/img/contacts/mob_contacts_1x-min.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    &__title{
+        margin: 0;
+        margin-bottom: 40px;
+        font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 42px;
+            line-height: 1.17;
+            text-align: center;
+            letter-spacing: 0.05em;
+        
+            color: #FFFFFF;
+    }
+    &__item{
+        display: flex;
+        align-items: center;
+            &:not(:last-child) {
+                    margin-bottom: 20px;
+                }
+
+    }
+    &__link{
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 1.67;
+            letter-spacing: 0.02em;
+        
+            color: #9DA4BD;
+            margin-left: 16px;
+      
+
+    }
+    &__address{
+        margin-bottom: 44px;
+    }
+    &__pre-title{
+        display: flex;
+        align-items: center;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 1.36;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            margin-top: 0;
+        
+            color: #FFFFFF;
+            &::before{
+                content: " ";
+                width: 60px;
+                height: 1px;
+                margin-right: 20px;
+                background-color: rgba(157, 164, 189, 0.4);;
+            }
+    }
+    &__text{
+       margin: 0;
+        font-weight: 400;
+            font-size: 18px;
+            line-height: 1.67;
+            letter-spacing: 0.02em;
+        
+            color: #9DA4BD;
+    }
+}

@@ -1,0 +1,47 @@
+.socials{
+    background: #F7F7F7;
+    padding-top: 44px;
+    padding-bottom: 44px;
+    &__list{
+        display: flex;
+        margin-bottom: 20px;
+        
+
+    }
+    &__item{
+        font-size: 11px;
+            line-height: 1.36;
+            letter-spacing: 0.2em;
+        
+            color: #303030;
+            display: flex;
+            align-items: center;
+        
+        &:not(:last-child){
+            margin-right: 40px;
+           
+            &::before{
+                content: " ";
+                width: 60px;
+                height: 1px;
+                background-color: #303030;
+                margin-right: 40px;
+                margin-left: 148px;
+            }
+        }
+
+    }
+    &__texts{
+        display: flex;
+    }
+    &__text{
+        font-weight: 600;
+            font-size: 11px;
+            line-height: 1.36;
+            letter-spacing: 0.2em;
+            color: #9DA4BD;
+            &:not(:last-child){
+                margin-right: 6px;
+            }
+    }
+}
