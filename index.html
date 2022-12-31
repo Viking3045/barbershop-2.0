@@ -252,14 +252,93 @@
           </ul>
         </div>
       </section>
-      <section>
+      <section class="section work">
         <div class="container">
+          <p class="work__text">In Latin, "barba" means "beard"</p>
+          <ul class="work__list list">
+            <li class="work__item"><img  class="work__img"
+              srcset="
+              ./img/work/desk_work1_1x-min.jpg 270w,
+              ./img/work/tab_work1_1x-min.jpg 330w,
+              ./img/work/mob_work1_1x-min.jpg 418w,
+              ./img/work/desk_work1_2x-min.jpg 540w,
+              ./img/work/tab_work1_2x-min.jpg 660w,
+              ./img/work/mob_work1_2x-min.jpg 836w,
+              "
+              sizes="(min-width: 1200px) 270px, (min-width: 768px) 330px, (min-width: 480px) 418px, 100vw"
+              src="./img/work/tab_work1_1x-min.jpg" 
+              alt="Alan"
+               width="450" /></li>
+            <li class="work__item">      <img class="work__img"
+              srcset="
+              ./img/work/desk_work2_1x-min.jpg 270w,
+              ./img/work/tab_work2_1x-min.jpg 330w,
+              ./img/work/mob_work2_1x-min.jpg 418w,
+              ./img/work/desk_work2_2x-min.jpg 540w,
+              ./img/work/tab_work2_2x-min.jpg 660w,
+              ./img/work/mob_work2_2x-min.jpg 836w,
+              "
+              sizes="(min-width: 1200px) 270px, (min-width: 768px) 330px, (min-width: 480px) 418px, 100vw"
+              src="./img/work/tab_work2_1x-min.jpg" 
+              alt="Alan"
+               width="450" /></li>
+            <li class="work__item">     <img class="work__img"
+              srcset="
+              ./img/work/desk_work3_1x-min.jpg 270w,
+              ./img/work/tab_work3_1x-min.jpg 330w,
+              ./img/work/mob_work3_1x-min.jpg 418w,
+              ./img/work/desk_work3_2x-min.jpg 540w,
+              ./img/work/tab_work3_2x-min.jpg 660w,
+              ./img/work/mob_work3_2x-min.jpg 836w,
+              "
+              sizes="(min-width: 1200px) 270px, (min-width: 768px) 330px, (min-width: 480px) 418px, 100vw"
+              src="./img/work/tab_work3_1x-min.jpg" 
+              alt="Alan"
+               width="450" /></li>
+            <li class="work__item">     <img class="work__img"
+              srcset="
+              ./img/work/desk_work4_1x-min.jpg 270w,
+              ./img/work/tab_work4_1x-min.jpg 330w,
+              ./img/work/mob_work4_1x-min.jpg 418w,
+              ./img/work/desk_work4_2x-min.jpg 540w,
+              ./img/work/tab_work4_2x-min.jpg 660w,
+              ./img/work/mob_work4_2x-min.jpg 836w,
+              "
+              sizes="(min-width: 1200px) 270px, (min-width: 768px) 330px, (min-width: 480px) 418px, 100vw"
+              src="./img/work/tab_work4_1x-min.jpg" 
+              alt="Alan"
+               width="450" /></li>
+          </ul>
           
         </div>
       </section>
     </main>
 
-    <footer></footer>
+    <footer class="section">
+      <div class="container">
+        <section class="booking">
+          <h2 class="booking__heading">Online-booking</h2>
+          <form class="booking__form">
+            <label class="booking__label"> <span class="booking__titel">Name*</span>
+            <input class="booking__text" type="text" name="name" required>
+          </label>
+          <label class="booking__label"><span class="booking__titel">Phone*</span>
+            <input class="booking__text" type="tel" name="tel" required>
+          </label>
+          <label class="booking__label"><span class="booking__titel">Message</span>
+            <input class="booking__text"type="email" name="mail" required>
+          </label>
+          <button class="booking__button button"></button>
+          </form>
+          
+
+      </section>
+      <section class="contacts">
+
+      </section>
+      </div>
+      
+    </footer>
 
     <script src="./js/header-scroll.js"></script>
     <script src="./js/modal.js"></script>

@@ -378,4 +378,26 @@ img {
 }
 .barbers__item:not(:last-child) {
   margin-right: 10px;
+}
+
+.work__text {
+  display: flex;
+  align-items: center;
+  margin-bottom: 71px;
+  margin-top: 0;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: #303030;
+}
+.work__text::before {
+  content: " ";
+  width: 60px;
+  height: 1px;
+  background-color: #303030;
+  margin-right: 20px;
+}
+.work__item:not(:last-child) {
+  margin-bottom: 30px;
 }/*# sourceMappingURL=main.css.map */
